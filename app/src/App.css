@@ -1,0 +1,92 @@
+.App-container {
+  height: 40;
+  display: flex;
+  flex-direction: column;
+  background-color:'red'
+}
+body{
+  background-color: #282c34;
+}
+.Selector-row {
+  flex-direction: row;
+  display: flex;
+  text-align: flex-end;
+  align-items:  flex-end;
+  justify-content: flex-end;
+  margin: 20px;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+}
+.Task-selector{
+  align-items: flex-end;
+  justify-content:  flex-end;
+}
+.Task1-container{
+  align-items: center;
+  justify-content:  center;
+  display: flex;
+  flex-direction: column;
+}
+.Task1-input{
+  margin-bottom: 10px;
+}
+.Task1-input1{
+  margin-bottom: 10px;
+  margin-right:20px
+}
+.Task2-container{
+  display: flex;
+  justify-content: center;
+}
+.Submit-arrays{
+  width: 50%;
+  height: 70px;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+}
+.Post-button{
+  margin-top: 60%;
+  width: 50%;
+  height: 70px;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+}
+.IP-container{
+  display: flex;
+  justify-content: center;
+  border-width: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  border-radius: 2px;
+  width: 50%;
+}
+.IP-text{
+  justify-content: center;
+  align-self: center;
+}
+.Country-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Country-text{
+  justify-content: center;
+  display: flex;
+  font-weight: 600;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+}
+.Country-flag{
+  display: flex;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
