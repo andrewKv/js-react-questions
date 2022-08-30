@@ -15,5 +15,7 @@ Once you have the data and displayed it, create a PostModel and post it to an AP
 # to run
 
 cd -> app/src
+
 npm i
+
 npm start
